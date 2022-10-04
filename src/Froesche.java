@@ -11,9 +11,10 @@ public class Froesche extends Amphibium{
         System.out.println("Quaak!!");
     }
 
-    protected void  instructTo()
+    protected void  instructTo(hoverFrogs hover)
     {
         System.out.println("Take off");
+        hover.hover();
 
 
     }

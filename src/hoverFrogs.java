@@ -19,6 +19,11 @@ public class  hoverFrogs extends Froesche {
 
         System.out.println("I can hover");
     }
+    public void hover(){
+
+        System.out.println("Roger I am hovering");
+    }
+
     }
 
 
