@@ -1,10 +1,13 @@
 public class Main {
     public static void main(String args[]){
 
+        System.out.println();
+
         Froesche test = new Froesche(12, "Frog" , "green" );
         test.makeSound();
         System.out.println(test.getColor());
         System.out.println(test.getHeight());
+        test.instructTo();
 
         System.out.println();
 
@@ -19,7 +22,7 @@ public class Main {
         hover.makeSound();
         System.out.println(hover.getColor());
         System.out.println(hover.getHeight());
-        hover.showabillity();
+        hover.showAbillity();
 
 
     }

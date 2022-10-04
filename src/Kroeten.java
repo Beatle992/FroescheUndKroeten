@@ -12,14 +12,6 @@ public class Kroeten extends Amphibium {
         System.out.println("Quoork");
     }
 
-    public int setHeight(int height){
-        this.height = height;
-        return height;
-    }
 
-    public int setColor(int color){
-        this.color = String.valueOf(color);
-        return color;
-    }
 
 }

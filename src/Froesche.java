@@ -10,4 +10,10 @@ public class Froesche extends Amphibium{
     public void makeSound(){
         System.out.println("Quaak!!");
     }
+
+    protected void  instructTo()
+    {
+        System.out.println("Take off");
+
+    }
 }

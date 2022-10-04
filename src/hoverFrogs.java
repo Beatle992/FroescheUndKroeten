@@ -1,4 +1,4 @@
-public class  hoverFrogs extends Amphibium {
+public class  hoverFrogs extends Froesche {
 
 
 
@@ -15,9 +15,9 @@ public class  hoverFrogs extends Amphibium {
             System.out.println("Quaak!!");
         }
 
-    public void showabillity(){
-        String abillity = "hover";
-        System.out.println("I can " + abillity);
+    public void showAbillity(){
+
+        System.out.println("I can hover");
     }
     }
 
