@@ -15,5 +15,6 @@ public class Froesche extends Amphibium{
     {
         System.out.println("Take off");
 
+
     }
 }
